@@ -21,11 +21,11 @@ SSH works by authenticating based on a key pair, with a private key being on a r
 1. Open the Settings panel, then click Apps.
 2. Under the Apps and Features heading, click Optional Features.
 3. Scroll down the list to see if OpenSSH Client is listed.
-<li>
+
 ⋅⋅* If it’s not, click the plus-sign next to Add a feature.
 ⋅⋅* Scroll through the list to find and select OpenSSH Client.
-⋅⋅* Finally, click Install.
-</li>
+⋅⋅\* Finally, click Install.
+
 ![ssh1](https://user-images.githubusercontent.com/69836474/153216693-1aacb42a-2f58-4888-ad32-c1cdae3e92ce.JPG)
 ![ssh2](https://user-images.githubusercontent.com/69836474/153216776-a8b2bfb6-cef6-4b29-b90f-430c7fb91336.JPG)
 
