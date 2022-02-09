@@ -42,9 +42,9 @@ SSH works by authenticating based on a key pair, with a private key being on a r
 
 1. In the command prompt, type the following:
 
-```sh
-ssh-keygen
-```
+   ```sh
+   ssh-keygen
+   ```
 
 2. By default, the system will save the keys to C:\Users\your_username/.ssh/id_rsa. You can use the default name, or you can choose more descriptive names. This can help distinguish between keys, if you are using multiple key pairs. To stick to the default option, press Enter.
 3. You’ll be asked to enter a passphrase. Hit Enter to skip this step.
@@ -52,3 +52,23 @@ ssh-keygen
 5. Open your file browser.
 6. Navigate to C:\Users\your_username/.ssh.
 7. You should see two files. The identification is saved in the id_rsa file and the public key is labeled id_rsa.pub. This is your SSH key pair.
+8. You can open copy your ssh by opening the file in notepad.
+
+## Step 4 Add SSH into Github Account
+
+1. Go to your Github Account.
+2. GO to setting
+3. Click on SSH & Key
+4. Create the name and copy the key and then save.
+
+# GitTutorial
+
+1. create a new repository
+2. Dont add anything let it be empty first.
+3. echo "# git-into-assignment-" >> README.md
+4. git init
+5. git add README.md
+6. git commit -m "first commit"
+7. git branch -M main
+8. git remote add origin https://github.com/danielhernandes/git-into-assignment-.git
+9. git push -u origin main
